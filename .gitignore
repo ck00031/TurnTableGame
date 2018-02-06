@@ -4,7 +4,7 @@
 
 ## Build generated
 build/
-DerivedData
+DerivedData/
 
 ## Various settings
 *.pbxuser
@@ -15,17 +15,27 @@ DerivedData
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+<<<<<<< HEAD
 xcuserdata
 
 ## Other
 *.xccheckout
 *.moved-aside
 *.xcuserstate
+=======
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+>>>>>>> ba28ae0ce55b827d7a57677b63f0af5dfc53ab09
 *.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
+*.dSYM.zip
+*.dSYM
 
 # CocoaPods
 #
@@ -34,6 +44,11 @@ xcuserdata
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 #Pods/
+# Pod
+Pods/
+
+# MAC
+.DS_Store
 
 # Carthage
 #
@@ -41,9 +56,3 @@ xcuserdata
 # Carthage/Checkouts
 
 Carthage/Build
-
-# Pod
-Pods/
-
-# MAC
-.DS_Store
