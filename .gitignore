@@ -15,20 +15,12 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-<<<<<<< HEAD
 xcuserdata
 
 ## Other
 *.xccheckout
 *.moved-aside
 *.xcuserstate
-=======
-xcuserdata/
-
-## Other
-*.moved-aside
-*.xccheckout
->>>>>>> ba28ae0ce55b827d7a57677b63f0af5dfc53ab09
 *.xcscmblueprint
 
 ## Obj-C/Swift specific
